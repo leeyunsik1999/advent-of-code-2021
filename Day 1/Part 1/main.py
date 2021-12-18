@@ -1,6 +1,8 @@
-
-
-
+def getNum(file):
+    line = file.readline()
+    if line:
+        return int(line.strip("\n"))
+    return False
 
 if __name__ == "__main__":
     text = open("../input.txt", "r")
