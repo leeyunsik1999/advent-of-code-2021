@@ -3,7 +3,7 @@
 
 
 if __name__ == "__main__":
-    text = open("input.txt", "r")
+    text = open("../input.txt", "r")
     line = text.readline()
     prevnum = None
     count = 0
